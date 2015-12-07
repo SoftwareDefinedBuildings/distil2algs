@@ -5,7 +5,7 @@ import io.btrdb.distil._
 import io.btrdb.distil.dsl._
 import scala.collection.mutable
 
-class MovingAverageDistiller extends Distiller {
+class MovingAverage extends Distiller {
   val version : Int
     = 1
   val maintainer : String
